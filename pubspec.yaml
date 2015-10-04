@@ -4,8 +4,10 @@ author: Polymer.dart Authors <web-ui-dev@dartlang.org>
 description: Polymer core-elements for Dart
 homepage: https://www.dartlang.org/polymer/
 dependencies:
-  polymer: ">=0.16.1+4"
-  polymer_interop: ">=0.1.0+2"
+  polymer:
+    git: https://github.com/blckur/polymer-dart.git
+  polymer_interop:
+    git: https://github.com/blckur/polymer_interop.git
   quiver: ">=0.17.0"
   web_components: ">=0.9.0"
 dev_dependencies:
